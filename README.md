@@ -9,6 +9,9 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=Tanishthar&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Tanishthar&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+# 🌐 My Website
+[TanishThar](https://tanishthar.netlify.app/)
+
 ---
 [![](https://visitcount.itsvg.in/api?id=Tanishthar&icon=0&color=0)](https://visitcount.itsvg.in)
 

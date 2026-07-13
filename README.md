@@ -2,7 +2,7 @@
 
   <img src="https://readme-typing-svg.herokuapp.com?lines=Full+Stack+%7C+GenAI+Developer;REST+APIs+%7C+Real-Time+Systems+%7C+AI+Automation&center=true&width=900&height=55&color=F78C6C&size=24&pause=1000" />
   
-  # Hi, I'm Tanish Shah 👋
+  # Hi, I'm Tanish Shah
   
   **Full Stack Developer · GenAI Builder · Product Thinker**
   
@@ -16,18 +16,18 @@
 
 <br>
 
-## 💫 About Me
+## About Me
 
 I'm a developer at the intersection of **software engineering**, **AI**, and **real-world problem solving**.
 
-- 🔭 Currently building: full-stack apps with AI-driven automation
-- 🤖 Exploring: GenAI pipelines, real-time systems, and smart APIs
-- 🛠️ Past projects: privacy-focused Android apps · gesture-controlled music UI · AR business cards · job automation bots
-- 🎯 Philosophy: ship things that matter, not just things that work
+- Currently building: full-stack apps with AI-driven automation
+- Exploring: GenAI pipelines, real-time systems, and smart APIs
+- Past projects: privacy-focused Android apps · gesture-controlled music UI · AR business cards · job automation bots
+- Philosophy: ship things that matter, not just things that work
 
 <br>
 
-## 🚀 Featured Projects
+## Featured Projects
 
 | Project | Description | Stack |
 |--------|-------------|-------|
@@ -38,7 +38,7 @@ I'm a developer at the intersection of **software engineering**, **AI**, and **r
 
 <br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,java,js,nodejs,fastapi,flask,flutter,androidstudio&perline=8" /><br/>
@@ -48,7 +48,7 @@ I'm a developer at the intersection of **software engineering**, **AI**, and **r
 
 <br>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Tanishthar&theme=dark&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="160"/>
@@ -57,7 +57,7 @@ I'm a developer at the intersection of **software engineering**, **AI**, and **r
 
 <br>
 
-## 🌐 Connect
+## Connect
 
 <p align="center">
   <a href="https://tanishthar.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-F78C6C?style=for-the-badge&logo=netlify&logoColor=white" /></a>

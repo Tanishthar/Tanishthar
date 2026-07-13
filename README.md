@@ -48,15 +48,6 @@ I'm a developer at the intersection of **software engineering**, **AI**, and **r
 
 <br>
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tanishthar&theme=dark&hide_border=true&show_icons=true&include_all_commits=true&count_private=true" height="160"/>
-  &nbsp;
-</p>
-
-<br>
-
 ## Connect
 
 <p align="center">

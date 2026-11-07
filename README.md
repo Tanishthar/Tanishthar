@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=C9743F&center=true&vCenter=true&width=880&height=55&lines=I+write+the+kernel+before+I+trust+the+abstraction.;64-bit+OS+from+scratch+%E2%80%94+bootloader%2C+Ring+3%2C+TLS+browser.;Agents+that+cannot+reach+a+shell%2C+by+construction.;Deep+learning+that+shows+its+working." alt="I write the kernel before I trust the abstraction" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=900&color=C9743F&center=true&vCenter=true&width=880&height=55&lines=I+direct+AI+agents+and+verify+what+they+ship.;I+decide+what+is+worth+building%2C+then+ship+it.;Agents+that+cannot+reach+a+shell%2C+by+construction.;Deep+learning+that+shows+its+working." alt="I direct AI agents and verify what they ship" />
 
 # Tanish Thar
 
-**Systems Engineer&nbsp; ·&nbsp; AI Agent Architect&nbsp; ·&nbsp; Deep Learning Builder**
+**AI Product Engineer&nbsp; ·&nbsp; Product Manager&nbsp; ·&nbsp; Agent Builder**
 
 <sub>Mumbai, India</sub>
 
@@ -23,81 +23,50 @@
 tanish@TanishsG16:~$ whoami --verbose
 
   NAME     Tanish Thar
-  ROLE     Computer Engineering · DJ Sanghvi College of Engineering, Mumbai
-  BUILDS   operating systems · agentic AI · deep learning · security tooling
-  METHOD   build the foundation first, then earn the abstraction
-  PROOF    a kernel that boots · an agent that cannot reach a shell
+  ROLE     AI product engineer · Computer Engineering, DJ Sanghvi College of Engineering
+  BUILDS   AI products · agent systems · deep learning · secure infrastructure
+  METHOD   decide what to build, direct the agents, verify every claim before it ships
+  PROOF    an OS that boots in QEMU · an agent that cannot reach a shell
            a model that shows which brain region it looked at
 
 tanish@TanishsG16:~$ _
 ```
 
-I build at the seam between **operating systems**, **agentic AI**, and **deep learning** —
-the three places where you cannot get away with treating the layer below as magic.
-Kernel routines, multi-agent loops, and 3D vision models, owned end to end.
+I build AI products, and I build them with AI. My job is the part a model cannot do on
+its own: deciding what is worth building, designing the boundaries it has to respect,
+and proving the result works before anyone else relies on it.
 
-> **Why the range?** Every one of these started as a question I could not answer by
-> reading. So I wrote the bootloader, implemented the protocol, and trained the weights
-> until I could. The breadth is a side effect of that habit, not the goal.
+> **How I work.** Coding agents write a lot of my code now. That moves the hard part,
+> it doesn't remove it. I set the architecture and the milestones, I break the work
+> into pieces an agent can finish, and I check each piece against something that
+> cannot be talked round: a test, a boot log, a scan, a real user.
 
 <br>
 
 ## Now
 
-| | |
-|---|---|
-| **TanOS** | Pushing the app platform past `v0.3 Forge` |
-| **Jarvis** | Running in production on my Pi, with no shell and no way to get one |
-| **Dropler.AI** | Product manager at Meera AI Tech — `prompt → generated Expo app` |
+| | What | Where it is |
+|---|---|---|
+| **TanPi + Jarvis** | My Raspberry Pi homelab, run by Jarvis: a private agent with no shell, no SSH and no Docker socket | `in production` · moving every service behind one secure ingress, and teaching Jarvis to remember yesterday without rereading everything |
+| **Client websites** | Sites and order systems for small businesses in Mumbai, designed, built and deployed end to end | `shipping` · [work.tanishthar.com](https://work.tanishthar.com/) |
+| **TanOS** | How far directed AI agents can take an operating system when held to a real spec | `v0.3 Forge` · next milestone being specified |
 
 <br>
 
 ---
 
-## Featured Engineering
+## Featured work
 
 > Some codebases are private under commercial or academic constraint. Design specs,
-> architecture diagrams and video telemetry live on the
+> architecture diagrams and video walkthroughs live on the
 > **[case study site](https://portfolio.tanishthar.com/)**. *Click any project to open it.*
-
-<details>
-<summary><h3>TanOS &nbsp;—&nbsp; a 64-bit OS written from scratch &nbsp;&nbsp;<code>C</code> <code>x86-64 ASM</code></h3></summary>
-
-<br>
-
-**From a custom UEFI bootloader to a graphical desktop that browses the real web over its
-own TLS stack.** Not a Linux fork. Not a teaching toy. An original kernel.
-
-| | |
-|---|---|
-| **Scale** | 50,000+ lines of hand-written C and assembly |
-| **Userspace** | 49-call Ring 3 syscall ABI, genuine preemptive multitasking |
-| **Apps** | 17, including a graphical App Store and File Manager |
-| **Network** | `e1000` driver written from the datasheet |
-
-**The part I did not expect to finish:** *Compass*, a web browser layout engine written
-inside the OS. It renders HTML, a CSS subset, PNG images and forms — over TLS validated
-against 123 Mozilla CA anchors. The operating system browses the actual internet.
-
-Every version was verified by booting it in QEMU and reading the framebuffer and serial
-output through scripted QMP — not by trusting a build that compiled.
-
-| Version | Codename | Shipped |
-|---|---|---|
-| `v0.1` | **Dune** | UEFI loader → graphical desktop, persistent across reboots |
-| `v0.2` | — | Preemptive multitasking with real Ring 3 isolation |
-| `v0.3` | **Forge** | A platform third-party graphical apps build against — 19/19 criteria |
-
-**[Read the case study](https://portfolio.tanishthar.com/projects/tanos/)** &nbsp;·&nbsp; **[tanos.tanishthar.com](https://tanos.tanishthar.com/)**
-
-</details>
 
 <details>
 <summary><h3>TanPi + Jarvis &nbsp;—&nbsp; the agent that has no shell &nbsp;&nbsp;<code>FastAPI</code> <code>Docker</code> <code>Pi 4B</code></h3></summary>
 
 <br>
 
-A self-hosted homelab running a private LLM agent that operates real infrastructure —
+A self-hosted homelab running a private LLM agent that operates real infrastructure,
 **and holds no Docker socket, no SSH key, and no shell.**
 
 Most "AI ops" demos hand a model a terminal and hope the prompt holds. That is not a
@@ -126,10 +95,10 @@ The dotted lines are the point: they are paths that **do not exist in the codeba
 There is no `/exec` route, and the API speaks in logical resources rather than
 implementation handles, so a compromised prompt has nothing to name.
 
-**Memory that forgets on purpose.** The agent's live store is hard-capped — when it
+**Memory that forgets on purpose.** The agent's live store is hard-capped. When it
 fills, `add` fails and the model must choose what to drop. A separate systemd unit
 exports everything to a durable Markdown archive every 15 minutes. Bounded working
-memory, unbounded history, and the import back is manual and validated — never an
+memory, unbounded history, and the import back is manual and validated, never an
 automatic round trip.
 
 **Underneath:** Raspberry Pi 4B, Docker Compose, Immich · Jellyfin · Vaultwarden ·
@@ -145,8 +114,8 @@ source of truth; SQLite is only an index.
 
 <br>
 
-A production issue-triage system where three agents collaborate to take a repository
-issue from **report → severity → reproduction → proposed fix → failing test → dry-run PR**.
+An issue-triage system where three agents collaborate to take a repository issue from
+**report → severity → reproduction → proposed fix → failing test → dry-run PR**.
 
 | | |
 |---|---|
@@ -154,11 +123,38 @@ issue from **report → severity → reproduction → proposed fix → failing t
 | **Agents** | 3 collaborating, with tool-calling flows and typed state |
 | **Safety** | Sandboxed code execution, automated retries, circuit breakers |
 
-**Key achievement:** a real-time Next.js dashboard streaming step-by-step reasoning logs,
+**Key decision:** a real-time Next.js dashboard streaming step-by-step reasoning logs,
 with `tool_error_rate` and `eval_score` tracked per run. An agent system you cannot
-measure is an agent system you cannot trust — so the eval harness shipped with it.
+measure is an agent system you cannot trust, so the eval harness shipped with it.
 
 **[Read the case study](https://portfolio.tanishthar.com/projects/issue_triage/)**
+
+</details>
+
+<details>
+<summary><h3>TanOS &nbsp;—&nbsp; an operating system built by directing AI agents &nbsp;&nbsp;<code>C</code> <code>x86-64</code> <code>QEMU</code></h3></summary>
+
+<br>
+
+**How far can coding agents take a 64-bit operating system if someone holds them to a
+real spec?** TanOS is that experiment. The code was written by AI agents. I set the
+architecture and the milestones, broke the work into pieces they could finish, and
+refused to accept any version on the strength of "it compiles".
+
+Every version was verified by booting it in QEMU and reading the framebuffer and serial
+output through scripted QMP. A milestone counted only when the machine showed it working.
+
+| Version | Codename | Accepted when |
+|---|---|---|
+| `v0.1` | **Dune** | UEFI loader boots to a graphical desktop that persists across reboots |
+| `v0.2` | — | Preemptive multitasking with Ring 3 isolation |
+| `v0.3` | **Forge** | Third-party graphical apps build against the platform: 19/19 criteria |
+
+Where it got to: a Ring 3 syscall ABI, an `e1000` network driver, an app store and file
+manager, and *Compass*, a browser that renders HTML and a CSS subset over TLS. What it
+taught me: an agent is only as good as the acceptance test you give it.
+
+**[Read the case study](https://portfolio.tanishthar.com/projects/tanos/)** &nbsp;·&nbsp; **[tanos.tanishthar.com](https://tanos.tanishthar.com/)**
 
 </details>
 
@@ -167,7 +163,7 @@ measure is an agent system you cannot trust — so the eval harness shipped with
 
 <br>
 
-Stage-wise Alzheimer detection from **raw 3D MRI volumes** — with the model's prediction
+Stage-wise Alzheimer detection from **raw 3D MRI volumes**, with the model's prediction
 mapped back onto the brain regions that produced it.
 
 | | |
@@ -176,10 +172,10 @@ mapped back onto the brain regions that produced it.
 | **Compute** | ~4 minutes per 3D scan on WSL |
 | **Explainability** | Grad-CAM over anatomical segmentation |
 
-**Key achievement:** an end-to-end pipeline that performs anatomical segmentation first —
-isolating the **hippocampus and brainstem** — then classifies stage-wise on that
-structure. A radiologist can check *where* it looked, not just what it said. That is the
-difference between a number and a diagnosis someone can act on.
+**Key decision:** segment the anatomy first, isolating the **hippocampus and
+brainstem**, then classify stage-wise on that structure. A radiologist can check *where*
+it looked, not just what it said. That is the difference between a number and a
+diagnosis someone can act on.
 
 **[Read the case study](https://portfolio.tanishthar.com/projects/alzheimer-detection/)**
 
@@ -192,12 +188,10 @@ difference between a number and a diagnosis someone can act on.
 
 A microservices electronic-trading stack: a **C++ price-time-priority matching engine**
 with per-symbol locked order books, UDP market data, binary TCP order entry, a Python
-pre-trade risk gateway, and a Bloomberg-style web terminal — over Redis pub/sub with
+pre-trade risk gateway, and a Bloomberg-style web terminal, over Redis pub/sub with
 Postgres persistence and Prometheus/Grafana observability.
 
-Built to demonstrate the actual competencies of trading infrastructure: C++, Linux,
-TCP/UDP, concurrency, and matching-engine mechanics. Ongoing, and co-built with
-[@hetvipatel31](https://github.com/hetvipatel31).
+Co-built with [@hetvipatel31](https://github.com/hetvipatel31).
 
 **[Read the case study](https://portfolio.tanishthar.com/projects/quantforge/)** &nbsp;·&nbsp; **[quantforge.tanishthar.com](https://quantforge.tanishthar.com/)**
 
@@ -211,16 +205,17 @@ TCP/UDP, concurrency, and matching-engine mechanics. Ongoing, and co-built with
 
 | | |
 |---|---|
-| **Languages** | Python · C · C++ · Java · Dart · JavaScript · TypeScript · SQL |
 | **AI / ML** | PyTorch · TensorFlow · LangGraph · LangChain · MCP · Ollama · OpenCV |
+| **Product** | MVP scoping · release planning · App Store and Play Store launches · CI/CD |
+| **Languages** | Python · TypeScript · JavaScript · C++ · Java · Dart · SQL |
 | **Back-end** | FastAPI · Flask · Node.js · Express · Django · PostgreSQL · Redis |
 | **Front-end** | React · Next.js · Tailwind · Three.js · Flutter · Vite |
-| **Systems** | x86-64 ASM · Linux · Docker · Caddy · Tailscale · WSL · QEMU |
+| **Infra** | Docker · Linux · Caddy · Tailscale · Cloudflare · QEMU |
 | **Security** | Burp Suite · OWASP Top 10 · IDOR / SSRF · Row-level security |
 
 <div align="center">
   <br>
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,ts,js,nodejs,fastapi&perline=8" alt="Python, C, C++, Java, TypeScript, JavaScript, Node.js, FastAPI" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,cpp,java,nodejs,fastapi,dart&perline=8" alt="Python, TypeScript, JavaScript, C++, Java, Node.js, FastAPI, Dart" /><br/>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,react,nextjs,threejs,tailwind,flutter,vite&perline=8" alt="PyTorch, TensorFlow, React, Next.js, Three.js, Tailwind, Flutter, Vite" /><br/>
   <img src="https://skillicons.dev/icons?i=docker,linux,aws,postgres,redis,git,githubactions,cloudflare&perline=8" alt="Docker, Linux, AWS, Postgres, Redis, Git, GitHub Actions, Cloudflare" />
 </div>
@@ -238,9 +233,9 @@ flowchart TD
     H([" tanishthar.com — the hub "])
 
     H --> P[" portfolio.<br/>case studies "]
-    H --> T[" tanos.<br/>the operating system "]
     H --> B[" blog.<br/>engineering notes "]
     H --> L[" labs.<br/>security writeups "]
+    H --> T[" tanos.<br/>the AI-built OS "]
     H --> Q[" quantforge.<br/>trading terminal "]
 
     style H fill:#C9743F,stroke:#C9743F,color:#0b0a09
@@ -256,17 +251,17 @@ flowchart TD
 
 <br>
 
-Yes. On a real screen, [tanishthar.com](https://tanishthar.com/) boots into a windowing
-environment — draggable and resizable windows, a taskbar, a start menu, a terminal with
-`ls` / `cat` / `open`, and a music player. Projects that permit framing run *live inside
-a window*.
+Yes. On a real screen, [tanishthar.com](https://tanishthar.com/) opens on a lock screen
+and then a windowing environment: draggable and resizable windows, a taskbar, a start
+menu, a terminal with `ls` / `cat` / `open`, and a music player. Projects that permit
+framing run *live inside a window*.
 
 The desktop icons are real `<a href>` elements, so a plain click opens a window while
 Ctrl-click, middle-click and crawlers get the actual subdomain. The metaphor never hides
 the links behind JavaScript.
 
-On a phone it renders as an ordinary scrolling page, because a desktop metaphor on a
-5-inch screen is worse than a list.
+On a phone it becomes a home screen with apps, plus an ordinary scrolling page, because a
+desktop metaphor on a 5-inch screen is worse than a list.
 
 </details>
 
@@ -290,6 +285,6 @@ On a phone it renders as an ordinary scrolling page, because a desktop metaphor 
 
 <br>
 
-<sub>Build the foundations first. Write the kernel, implement the protocol,<br/>understand the weights, and ship code that lasts.</sub>
+<sub>Decide what is worth building. Direct the agents.<br/>Verify everything before anyone relies on it.</sub>
 
 </div>
